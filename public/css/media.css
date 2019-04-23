@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400);
+
+/* this the media screen query for the site*/
+
+
+@media(max-width:576px){
+	body{
+		overflow-x: hidden;
+	}
+
+
+	.progressbar li a{
+		display: none;
+	
+	}
+
+	section{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		top: 20%;
+		left: 8%;
+		/* z-index: -1; */
+		padding: 50px;
+		padding-bottom: 20px !important;
+		background: #fff;
+		color: #404040;
+		box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+		border-radius: 10px;
+		margin-top: 50px ;
+		margin-bottom: 50px;
+		
+	
+	}
+}
+
+@media(max-width:767px){
+	body{
+		overflow-x: hidden;
+	}
+
+	
+
+	.progressbar li a{
+		font-size: 10px;
+		font-weight: bold;
+	}
+
+	
+
+	section{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		top: 20%;
+		left: 14.5%;
+		/* z-index: -1; */
+		padding: 30px;
+		background: #fff;
+		color: #404040;
+		box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+		border-radius: 10px;
+		margin-top: 50px ;
+		margin-bottom: 50px;
+		
+	
+	}
+}
